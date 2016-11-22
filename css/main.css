@@ -1,0 +1,94 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+
+
+
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  text-shadow: 4px 4px 4px #aaa;
+  width: 90vw;
+  font-size:3em;
+  color:black;
+  margin-right:20px;
+
+}
+
+figcaption {
+	font-style:italic;}
+
+
+body {
+
+}
+figure { padding-top:20px;
+ }
+p, h2 {
+	font-family: 'Yatra One', cursive;
+max-width:40em;
+margin-right:50px;
+margin-left:70px;
+margin-bottom:10px;
+}
+
+article, footer {
+background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjOWU5ZTllIj48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDVMNSAwWk02IDRMNCA2Wk0tMSAxTDEgLTFaIiBzdHJva2U9IiM4ODgiIHN0cm9rZS13aWR0aD0iMSI+PC9wYXRoPgo8L3N2Zz4=");
+	width:100%;
+max-width:50em;
+margin:auto;
+
+}
+
+h1 {
+font-family: 'Yatra One', cursive;	
+text-align:center;
+padding:20px;
+margin-bottom:-10px;
+max-width:50em;
+color:darkred;
+font-size:3.5em;
+}
+
+img {
+max-width:100%;
+width:inherit;
+}
+
+footer {
+	
+
+}
+
+.icon_bar {
+	text-align:center;
+	padding:10px;
+	background-color:lightblue;
+	border-bottom:2px solid;}
+
+.icon_bar a{text-decoration:none;}
+
+@media (max-width: 600px){
+	figure, p, h2 {padding:0px;
+
+			margin:0px;}
+
+	h1 {font-size:2.3em;}	
+	h2 {font-size:1.4em;}	
+
+
+	[class*="zocial-"]:before {font-size:2em;}	
+
+	}		
